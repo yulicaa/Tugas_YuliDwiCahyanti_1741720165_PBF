@@ -1,0 +1,21 @@
+[debug] [2020-04-15T04:18:27.347Z] ----------------------------------------------------------------------
+[debug] [2020-04-15T04:18:27.349Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MSI GF63\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-15T04:18:27.349Z] CLI Version:   8.0.3
+[debug] [2020-04-15T04:18:27.349Z] Platform:      win32
+[debug] [2020-04-15T04:18:27.350Z] Node Version:  v12.14.1
+[debug] [2020-04-15T04:18:27.351Z] Time:          Wed Apr 15 2020 11:18:27 GMT+0700 (Western Indonesia Time)
+[debug] [2020-04-15T04:18:27.351Z] ----------------------------------------------------------------------
+[debug] [2020-04-15T04:18:27.351Z] 
+[debug] [2020-04-15T04:18:27.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-15T04:18:27.357Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\SEM6\Pemrograman-Framework\Minggu-11\yulica-minggu11
+
