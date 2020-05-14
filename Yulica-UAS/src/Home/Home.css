@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    -45deg,
+    rgba(247, 134, 28, 0.809),
+    rgba(241, 217, 79, 0.68)
+  );
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+}
+
+.notesHeader {
+  display: flex;
+  flex: 1 1 5%;
+  font-size: 3.2em;
+  color: #ffffff;
+  font-family: "Permanent Marker", cursive;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: left;
+  padding: 20px 0px 20px 0px;
+  background-color: #f4b350;
+  display: block;
+}
+
+.btn-Signout {
+  border: none;
+  position: relative;
+  width: 10%;
+  margin-left: 10px;
+  padding: 5px 5px;
+  font-size: 1.3em;
+  font-family: "Droid Sans", sans-serif;
+  background-color: #ff0000;
+  color: #fff;
+  
+}
+
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter {
+  width: unset;
+  background-color: rgba(243, 145, 41, 0.666);
+}

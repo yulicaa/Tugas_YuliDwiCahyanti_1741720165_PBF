@@ -1,0 +1,167 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #f8cb6a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(231, 121, 121);
+  }
+  
+  .card{
+    background-color: #cf810a;
+  }
+  
+  .card-deck{
+    background-color: #f7c761;
+  }
+  
+  .card-body{
+    background-color: #f8cb6a;
+  }
+  
+  .card-footer{
+    padding-left: 0%;
+    background-color: #f39f4a;
+  }
+  
+  .card-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(241, 93, 93);
+  }
+  
+  .card-text{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f8d17d;
+    color: rgb(241, 93, 93);
+  }
+  
+  .card-text2{
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    background-color: #f1e0a6;
+    color: rgb(247, 111, 88);
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .inidiganti{
+    width: 100%;
+  }
+  
+  .text{
+    margin-left: 20px;
+    width: 80%;
+  }
+  
+  .img-top{
+    background-color: bisque;
+    width: 100%;
+    height: 110%;
+  }
+  
+  .img-catalog{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
+    width: max-content;
+    height: max-content;
+  }
+  
+  .card-gambar3{
+    width: max-content;
+    height: max-content;
+  }
+  
+  .row{
+    margin-top: 10px;
+  }
+  
+  .container-1{
+    color: #fcd787;
+    background-color: linear-gradient(
+        -45deg,
+        rgba(247, 134, 28, 0.809),
+        rgba(241, 217, 79, 0.68)
+      );
+    text-align: center;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+  }
+  
+  #contactimg{
+    border-style: hidden;
+    background-color: #524e4e;
+    border-radius: 90px;
+  }
+  
+  .container-1 > a{
+    padding-left: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    
+  }
+
+  .container-1 h4 {
+    margin-top: 10px;
+    line-height: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(241, 93, 93);
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  span:hover{
+    text-decoration: none;
+    transform: scale(1.5);
+    
+  }
+  
+  #mail{
+    text-decoration: none;
+    color: black;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #mailmelogo{
+    border-style: hidden;
+    border-radius:5px;
+    width:0px;
+    height:0px;
+    
+  }
